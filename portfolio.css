@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #880808;
+}
+
+/* Header */
+
+header {
+    background-color: #ff2222;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+nav {
+    background-color: #141e30;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #ccc;
+}
+
+section h2 {
+    color: #245541;
+    border-bottom: 2px solid #00a8cc;
+    padding-bottom: 8px;
+}
+
+/* Skills */
+
+.skill-box {
+    background-color: #eef3f8;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.skill-box h3 {
+    color: #3e87a6;
+}
+
+.skill-box:hover {
+    background-color: #dceaf5;
+}
+
+/* Contact */
+
+#contact a {
+    color: #0077a8;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0b4bc2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
